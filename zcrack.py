@@ -41,7 +41,6 @@ elif platform.system().startswith("Linux"):
         import pyfiglet
     except ImportError:
         os.system("python3 -m pip install pyfiglet -q -q -q")
-        import pyfiglet
 def linuxpdf():
     os.system("clear")
     header()
