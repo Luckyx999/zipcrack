@@ -1,6 +1,7 @@
 import os
 import platform
 import time
+import pyfiglet
 print("[*] Checking Requirements Module....")
 def header():
     ascii_banner = pyfiglet.figlet_format("{ZIP CRACKER}").upper()
